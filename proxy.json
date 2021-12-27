@@ -1,0 +1,14 @@
+{
+    "nas":{
+        "name": "nas",
+        "address": "192.168.0.31",
+        "proxies" : {
+            "test": {
+                "name": "test",
+                "client": "nas",
+                "internalService": "192.168.0.31:30080",
+                "externalPort": "20080"
+            }
+        }
+    }
+}
